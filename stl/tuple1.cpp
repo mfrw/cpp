@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <tuple>
+#include "printtuple.hpp"
 
 using namespace std;
 
@@ -23,6 +24,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	cout << get<1>(t1) << endl;
+	cout << t1 << endl;
 
 	return 0;
 }
