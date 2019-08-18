@@ -5,3 +5,7 @@ bench: src/bench.cpp
 .PHONY: clean
 clean:
 	rm -rf bin/bench
+
+.PHONY: run
+run:
+	bin/bench

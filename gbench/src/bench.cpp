@@ -11,4 +11,16 @@ static void BM_StringCopy(benchmark::State& state) {
 }
 BENCHMARK(BM_StringCopy);
 
+int fib(int n) {
+	if (n < 2) {
+		return n;
+	}
+	return fib(n - 1) + fib(n - 2);
+}
+
+static void BM_FibRecursive(benchmark::State& state) {
+	for (auto _ : state) benchmark::DoNotOptimize(fib(35));
+}
+BENCHMARK(BM_FibRecursive)->Unit(benchmark::kMillisecond);
+
 BENCHMARK_MAIN();
