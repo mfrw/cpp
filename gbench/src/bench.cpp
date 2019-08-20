@@ -21,6 +21,7 @@ int fib(int n) {
 static void BM_FibRecursive(benchmark::State& state) {
 	for (auto _ : state) benchmark::DoNotOptimize(fib(35));
 }
-BENCHMARK(BM_FibRecursive)->Unit(benchmark::kMillisecond);
+// BENCHMARK(BM_FibRecursive)->Unit(benchmark::kMillisecond);
+BENCHMARK(BM_FibRecursive);
 
 BENCHMARK_MAIN();
