@@ -1,3 +1,5 @@
+#include "deque.h"
+
 #include <deque>
 #include <iostream>
 

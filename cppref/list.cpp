@@ -1,3 +1,5 @@
+#include "list.h"
+
 #include <algorithm>
 #include <iostream>
 #include <list>
