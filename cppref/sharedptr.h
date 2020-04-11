@@ -1,3 +1,6 @@
+#ifndef SHAREDPTR_H_XUQTQHV7
+#define SHAREDPTR_H_XUQTQHV7
+
 #include <cstddef>
 #include <cstdio>
 #include <fstream>
@@ -47,3 +50,5 @@ class sharedptr::Person {
 	    : name(n), mother(m), father(f) {}
 	~Person() { std::cout << "delete " << name << std::endl; }
 };
+
+#endif /* end of include guard: SHAREDPTR_H_XUQTQHV7 */

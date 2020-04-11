@@ -1,3 +1,6 @@
+#ifndef MULTISET_H_ABK3LHT1
+#define MULTISET_H_ABK3LHT1
+
 #include <iostream>
 
 namespace multiset {
@@ -12,3 +15,4 @@ void print_ms(T& m) {
 	std::cout << std::endl;
 }
 }  // namespace multiset
+#endif /* end of include guard: MULTISET_H_ABK3LHT1 */

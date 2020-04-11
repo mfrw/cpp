@@ -1,3 +1,6 @@
+#ifndef STLBENCH_H_SHA6PACV
+#define STLBENCH_H_SHA6PACV
+
 #include <set>
 #include <unordered_set>
 #include <vector>
@@ -50,3 +53,4 @@ struct sorted_set {
 
 }  // namespace set
 
+#endif /* end of include guard: STLBENCH_H_SHA6PACV */
