@@ -1,0 +1,3 @@
+namespace stack {
+void run();
+}

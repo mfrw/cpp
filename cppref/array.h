@@ -1,0 +1,3 @@
+namespace array {
+void run();
+}

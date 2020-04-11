@@ -1,0 +1,4 @@
+namespace vector {
+void run();
+}
+

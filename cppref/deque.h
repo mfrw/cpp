@@ -1,0 +1,3 @@
+namespace deque {
+void run();
+}
