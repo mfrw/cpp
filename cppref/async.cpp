@@ -10,7 +10,7 @@
 namespace async {
 int doSomething(char c) {
 	std::default_random_engine dre(c);
-	std::uniform_int_distribution<int> id(10, 1000);
+	std::uniform_int_distribution<int> id(1, 100);
 
 	for (int i = 0; i < 10; ++i) {
 		std::this_thread::sleep_for(std::chrono::milliseconds(id(dre)));
