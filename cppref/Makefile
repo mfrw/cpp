@@ -13,6 +13,8 @@ OBJS=\
      multiset.o \
      iterators.o \
      async.o \
+     mutex.o \
+     allocator.o \
      stl.o
 
 CXX=g++
