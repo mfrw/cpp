@@ -15,6 +15,7 @@ OBJS=\
      async.o \
      mutex.o \
      allocator.o \
+     fibo.o \
      stl.o
 
 CXX=g++

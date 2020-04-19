@@ -5,6 +5,7 @@
 #include "array.h"
 #include "async.h"
 #include "deque.h"
+#include "fibo.h"
 #include "fwd_list.h"
 #include "iterators.h"
 #include "list.h"
