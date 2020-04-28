@@ -28,4 +28,5 @@ int main() {
 	mutex::run();
 	allocator::run();
 	fibo::run();
+	thread::run();
 }

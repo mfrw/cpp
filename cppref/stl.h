@@ -15,6 +15,7 @@
 #include "set.h"
 #include "sharedptr.h"
 #include "stack.h"
+#include "thread.h"
 #include "vector.h"
 
 #endif /* end of include guard: STL_H_WOEBJS2Z */

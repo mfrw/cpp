@@ -16,15 +16,17 @@ OBJS=\
      mutex.o \
      allocator.o \
      fibo.o \
+     thread.o \
      stl.o
 
 CXX=g++
-CXXFLAGS = '--std=gnu++2a'
+CXXFLAGS = --std=gnu++2a -flto=thin
 BIN=stl
 BENCH=stlbench
+LDFLAGS=-flto=thin
 
 ${BIN}: ${OBJS}
-	${CXX} -o ${BIN} $^
+	${CXX} -flto=thin -o ${BIN} $^
 
 ${BENCH}: stlbench.cpp stlbench.h
 	${CXX} ${CXXFLAGS} -L benchmark/ -I benchmark/ -pthread -lbenchmark -o $@ $<
